@@ -1,4 +1,4 @@
-html{
+/*html{*/
 	scroll-behavior: smooth;
 }
 *{
@@ -311,7 +311,7 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-/*		.top_btn{
+		.top_btn{
 		width: 135px;
 		height: 80px;
 	margin-top: 120px;
@@ -325,7 +325,7 @@ footer{
 .top_div p{
 	font-size: 13px;
 	margin-left: 10px!important;
-}*/
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
