@@ -165,7 +165,61 @@ footer{
 
 
 			}
+				.top_btn{
+	box-shadow: none;
+	position: absolute;
+	left: 50px;
+	width: 140px;
+	top: 170px;
 
+
+}
+.top_div h1 {
+	font-size: 23px;
+	margin-left: -5px!important;
+	margin-top: -30px!important;
+}
+.top_div p{
+	font-size: 10px;
+		margin-left: -5px!important;
+}
+.footer_nav{
+	margin: 20px 0px;
+}
+.footer_nav h1{
+	font-size: 30px;
+}
+.footer_nav li{
+	font-size: 20px;
+	text-align: center!important;
+}
+.footer_nav_hr{
+	margin-left: 50px;
+	color: red!important;
+	width: 100%!important;
+}
+.footer_use h2 , p , .footer_nav li ,.footer_nav h1 ,.footer_usefull_links h2 ,{
+	margin-left: 50px;
+}
+.footer_usefull_links li a i{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin-left: 20px;
+}
+.footer_icon{
+	margin-left: 20%;
+}
+.footer_input{
+	margin-left: 25%;
+	width: auto;
+	height: 50px;
+}
+.footer_input_btn{
+	width: 60px;
+	height: 50px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -237,76 +291,11 @@ footer{
 		height:auto;
 		width: auto;
 	}
-				.top_section{
-			position: absolute;
-			top: 200px;
-			left: 0px;
-			width: 100%;
-			height: 700px;
 }
-.top_div h1 {
-	font-size: 15px;
-	font-weight: 200px;	
-
-}
-.top_btn{
-	
-		width: 160px;
-		height: 80px;
-	margin-top: 150px;
-	box-shadow: 6px 4px 5px 1px pink;
-	margin-left: 150px;
-}
-.top_div h1{
-	font-size: 50px;
-	margin-left: 10px!important;
-}
-.top_div p{
-	font-size: 15px;
-	margin-left: 10px!important;
-}
-.footer_nav{
-	margin: 20px 0px;
-}
-.footer_nav h1{
-	font-size: 30px;
-}
-.footer_nav li{
-	font-size: 20px;
-	text-align: center!important;
-}
-.footer_nav_hr{
-	margin-left: 50px;
-	color: red!important;
-	width: 100%!important;
-}
-.footer_use h2 , p , .footer_nav li ,.footer_nav h1 ,.footer_usefull_links h2 ,{
-	margin-left: 50px;
-}
-.footer_usefull_links li a i{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 10px;
-}
-.footer_icon{
-	margin-left: 20%;
-}
-.footer_input{
-	margin-left: 30%;
-	width: auto;
-	height: 50px;
-}
-.footer_input_btn{
-	width: 70px;
-	height: 50px;
-}
-}
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-		.top_btn{
+/*		.top_btn{
 		width: 135px;
 		height: 80px;
 	margin-top: 120px;
@@ -322,6 +311,6 @@ footer{
 	margin-left: 10px!important;
 }
 }
-
+*/
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
