@@ -1,0 +1,276 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar_brand{
+	color: #007bff!important;
+}
+/*--------------------menu_div-----------------------*/
+	.menu_div ul li a :hover{
+		color: #007bff;
+	}
+/*-------------------menu_div ends-------------------*/
+.top{
+	background-image: url('../images/top_img.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	clip-path: polygon(100% 0%, 100% 50%, 50% 100%, 0% 100% );
+	position: relative;
+}
+.top_section{
+			position: absolute;
+			top: 200px;
+			left: 0px;
+			width: 100%;
+			height: 400px;
+}
+.top_btn{
+	margin-top: 20px;
+	margin-left: 50px;
+	box-shadow: 6px 4px 5px 1px gray;
+}
+.gallery img{
+	padding: 10px;
+}
+.footer{
+	height: 150px
+	width:auto;
+}
+.footer h5{
+	line-height: 50px;
+	font-size: 15px;
+	color: gray;
+}
+/*bg images */
+.bgimg{
+	background-image: url('../images/carb1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 400px;
+}
+/*carsoul */
+.sidemenu{
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	float: right;
+}
+.navicon{
+	padding: 1px;
+	font-size: 15px;
+}
+.sidemenu ul li a i:hover{
+	color: #007bff;
+}
+.menu_div ul li a:hover{
+	color: #007bff!important;
+}
+/*about us*/
+.about_us{
+	height: 450px;
+}
+/*contact info*/
+.contact_info{
+	margin-top: 110px;
+}
+
+/*navbar_brand*/
+.navbar_brand{
+	margin-left: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#007bff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px 20px; /* Some padding */
+  border: 1px solid white;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.dropdown_menu a{
+	color: white;
+}
+footer{
+	background-color: #007bff;
+}
+.footer_nav{
+
+}
+.footer_nav li,.footer_nav li a {
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	color: white;
+}
+.footer_usefull_links li {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+
+}
+.footer_input{
+	/*border: 1px solid white!important;*/
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	border-right:1px solid #007bff!important;
+		border-radius: 20px 0px 0px 20px;
+		height: 30px;
+}
+.footer_input_btn{
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+	font-size: 10px;
+	height: 30px;
+	margin-top: -4px!important;
+}
+.footer_input_btn:hover{
+	background-color: #007bff;
+	color: white;
+	border: 1px solid white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.about_us{
+		height: auto;
+
+
+			}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.top_btn{
+		width: 160px;
+		height: 80px;
+	margin-top: 150px;
+	margin-left: 150px;
+	box-shadow: none;
+}
+.top_div h1{
+	font-size: 50px;
+	margin-left: 10px!important;
+}
+.top_div p{
+	font-size: 15px;
+	margin-left: 10px!important;
+}
+.footer_nav{
+	margin: 20px 0px;
+}
+.footer_nav h1{
+	font-size: 30px;
+}
+.footer_nav li{
+	font-size: 20px;
+	text-align: center!important;
+}
+.footer_nav_hr{
+	margin-left: 50px;
+	color: red!important;
+	width: 100%!important;
+}
+.footer_use h2 , p , .footer_nav li ,.footer_nav h1 ,.footer_usefull_links h2 ,{
+	margin-left: 50px;
+}
+.footer_usefull_links li a i{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+.footer_icon{
+	margin-left: 20%;
+}
+.footer_input{
+	margin-left: 30%;
+	width: auto;
+	height: 50px;
+}
+.footer_input_btn{
+	width: 70px;
+	height: 50px;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.about_us{
+		height: auto;
+	}
+	.services{
+		width: auto;
+		height: auto;
+	}
+	.gallery div img{
+		height:auto;
+		width: auto;
+	}
+				.top_section{
+			position: absolute;
+			top: 200px;
+			left: 0px;
+			width: 100%;
+			height: 700px;
+}
+.top_btn{
+	margin-top: 20px;
+	margin-left: 50px;
+	box-shadow: 6px 4px 5px 1px gray;
+}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+/*		.top_btn{
+		width: 135px;
+		height: 80px;
+	margin-top: 120px;
+	margin-left: 150px;
+	box-shadow: none;
+}
+.top_div h1{
+	font-size: 30px;
+	margin-left: 10px!important;
+}
+.top_div p{
+	font-size: 13px;
+	margin-left: 10px!important;
+}*/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
