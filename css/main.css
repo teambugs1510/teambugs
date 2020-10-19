@@ -34,7 +34,6 @@ html{
 .top_btn{
 	margin-top: 20px;
 	margin-left: 50px;
-	box-shadow: 6px 4px 5px 1px gray;
 }
 .gallery img{
 	padding: 10px;
@@ -251,16 +250,12 @@ footer{
 
 }
 .top_btn{
-	margin-top: 20px;
-	margin-left: 50px;
-	box-shadow: 6px 4px 5px 1px pink;
-}
-	.top_btn{
+	
 		width: 160px;
 		height: 80px;
 	margin-top: 150px;
+	box-shadow: 6px 4px 5px 1px pink;
 	margin-left: 150px;
-	box-shadow: none;
 }
 .top_div h1{
 	font-size: 50px;
